@@ -32,19 +32,15 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 992px) {
-  .dashboard-border {
-    width: max-content;
-  }
-}
 
 .dashboard-border {
   border-bottom: 3px solid #00e39c;
 }
-
-.dashboard {
-  width: -moz-max-content;
-  width: max-content;
+@media screen and (max-width: 992px) {
+  .dashboard-border {
+    width: -moz-max-content;
+    width: max-content;
+  }
 }
 
 .nav-search-icon {
@@ -272,7 +268,7 @@
   transform: translateX(-50%);
   background: rgb(0, 236, 147);
   -webkit-clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
-  clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
+          clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
 }
 
 .space-girl {
@@ -403,7 +399,7 @@
   transform: translateX(-50%);
   background: #f19839;
   -webkit-clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
-  clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
+          clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
 }
 .card-items .card-item {
   max-width: 390px;
@@ -566,7 +562,7 @@
   transform: translateX(-50%);
   background: #ffb600;
   -webkit-clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
-  clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
+          clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
 }
 
 .section-to-go {
@@ -760,7 +756,7 @@
   transform: translateX(-50%);
   background: #00ec93;
   -webkit-clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
-  clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
+          clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
 }
 .helmat-items .card-item {
   max-width: 390px;
@@ -915,6 +911,11 @@
 .buttons-bar {
   padding-left: 150px;
   margin-top: 18px;
+}
+@media screen and (max-width: 680px) {
+  .buttons-bar {
+    padding-left: 60px;
+  }
 }
 .buttons-bar button {
   background: #001c29;
@@ -1208,7 +1209,7 @@
   transform: translateX(-50%);
   background: rgb(0, 236, 147);
   -webkit-clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
-  clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
+          clip-path: polygon(20% 0%, 80% 0%, 70% 12%, 28% 11%);
 }
 .dark-bg .top-logo {
   display: flex;
@@ -1511,4 +1512,4 @@ body {
   .container-a {
     padding: 0 20px 0 20px;
   }
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

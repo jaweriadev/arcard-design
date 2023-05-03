@@ -26,10 +26,11 @@
 }
 .dashboard-border {
   border-bottom: 3px solid #00e39c;
+  @media screen and (max-width: 992px) {
+    width: max-content;
+  }
 }
-.dashboard {
-  width: max-content;
-}
+
 .nav-search-icon {
   position: absolute;
   padding-left: 17px;
@@ -864,6 +865,9 @@
 .buttons-bar {
   padding-left: 150px;
   margin-top: 18px;
+  @media screen and (max-width: 680px) {
+    padding-left: 60px;
+  }
   button {
     background: #001c29;
     border: none;
